@@ -1,0 +1,4 @@
+[submodule "HsPaillier"]
+	path = HsPaillier
+	url = git@github.com:colatkinson/HsPaillier.git
+	branch = update_versioning

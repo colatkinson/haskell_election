@@ -4,7 +4,7 @@ module Data.Election
     , t_max
     ) where
 
--- import Crypto.Paillier
+import Crypto.Paillier
 
 data Poll = Poll { uid :: Int
                  , voters :: Integer

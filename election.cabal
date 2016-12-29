@@ -46,7 +46,7 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 library
-  build-depends:       base >=4.3 && <5
+  build-depends:       base >=4.3 && <5, Paillier >= 0.1.0.4
   exposed-modules:     Data.Election
   ghc-options:         -Wall
   hs-source-dirs:       src
@@ -75,5 +75,5 @@ test-suite test-election
   type:                exitcode-stdio-1.0
   hs-source-dirs:      src, tests
   main-is:             TestMain.hs
-  build-depends:       base, election, tasty >= 0.11, tasty-hunit >= 0.9
+  build-depends:       base, election, tasty >= 0.11, tasty-hunit >= 0.9, Paillier
   default-language:    Haskell2010
